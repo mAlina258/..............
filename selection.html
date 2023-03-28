@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>selection</title>
+
+    <style>
+        .filters{
+        display:flex;
+        position: relative; top: 25px;
+        left: 25px;
+        }
+
+        .choiceBorF{
+        position: relative; left: 15px;
+        top: 5px;
+        }
+
+        .genre{
+        position: relative; left: -170px;
+        top: 42px;
+        }
+
+        .child_mode{
+        position: relative; left: -300px;
+        top: 72px;
+        }
+
+        .search{
+        display:flex;
+        position: relative; left: 1200px;
+        }
+
+        .search_string{
+        position: relative; top: 5px;
+        }
+
+        .objects{
+        position: relative; top: 100px;
+        }
+
+         .object_name{
+        left: -20px;
+        font-weight: bold;
+        font-size: 19px;
+        }
+
+        .object_author{
+        font-size: 16px;
+        }
+
+        .object_genre{
+        color: #888888;
+        }
+
+        .objects{
+        display:flex;
+        flex-wrap: wrap;
+        position: relative; left: 10px;
+        text-align: center;
+        }
+
+        .heading{
+        font-size: 35px;
+        color: #656850;
+        position: relative; left: 20px;
+        top: 80px;
+        font-weight: bold
+        }
+
+        .prcard{
+        margin: 15px;
+        }
+    </style>
+
+</head>
+<body>
+
+<div class="filters">
+    <img width="30" height="30" src="https://cdn-icons-png.flaticon.com/512/687/687305.png">
+
+    <div class="choiceBorF">
+        <label>
+            <input type="radio" name="title" value="книга">
+            Книга
+        </label>
+        <label>
+            <input type="radio" name="title" value="фильм">
+            Фильм
+        </label>
+    </div>
+
+    <div class="genre">
+    <label>Жанр:</label>
+    <select>
+      <option>Комедия</option>
+      <option>Боевик</option>
+      <option>Драма</option>
+      <option>Роман</option>
+    </select>
+    </div>
+
+    <div class="child_mode">
+        <label>
+            <input type="checkbox" value="terms">
+            Детский режим
+        </label>
+    </div>
+</div>
+
+<div class="search">
+    <img width="30" height="30" src="https://cdn-icons-png.flaticon.com/512/2319/2319177.png">
+
+    <div class="search_string">
+    <input type="text" name="first_name">
+        <button>Найти</button>
+    </div>
+</div>
+
+<span class="heading">Вам может понравится</span>
+
+<div class="objects">
+      <div class="prcard">
+          <img width="150" src="https://kartinkin.net/uploads/posts/2022-03/1647949796_1-kartinkin-net-p-kartinki-dlya-oblozhki-knigi-2.jpg">
+          <br>
+          <span class="object_name">Название</span>
+          <button>
+              <img width="15" src="https://cdn-icons-png.flaticon.com/512/20/20119.png">
+          </button>
+          <br>
+          <span class="object_author">Автор</span>
+          <br>
+          <span class="object_genre">жанры</span>
+      </div>
+
+      <div class="prcard">
+          <img width="150" src="https://kartinkin.net/uploads/posts/2022-03/1647949796_1-kartinkin-net-p-kartinki-dlya-oblozhki-knigi-2.jpg">
+          <br>
+          <span class="object_name">Название</span>
+          <button>
+              <img width="15" src="https://cdn-icons-png.flaticon.com/512/20/20119.png">
+          </button>
+          <br>
+          <span class="object_author">Автор</span>
+          <br>
+          <span class="object_genre">жанры</span>
+      </div>
+
+      <div class="prcard">
+          <img width="150" src="https://kartinkin.net/uploads/posts/2022-03/1647949796_1-kartinkin-net-p-kartinki-dlya-oblozhki-knigi-2.jpg">
+          <br>
+          <span class="object_name">Название</span>
+          <button>
+              <img width="15" src="https://cdn-icons-png.flaticon.com/512/20/20119.png">
+          </button>
+          <br>
+          <span class="object_author">Автор</span>
+          <br>
+          <span class="object_genre">жанры</span>
+      </div>
+
+      <div class="prcard">
+          <img width="150" src="https://kartinkin.net/uploads/posts/2022-03/1647949796_1-kartinkin-net-p-kartinki-dlya-oblozhki-knigi-2.jpg">
+          <br>
+          <span class="object_name">Название</span>
+          <button>
+              <img width="15" src="https://cdn-icons-png.flaticon.com/512/20/20119.png">
+          </button>
+          <br>
+          <span class="object_author">Автор</span>
+          <br>
+          <span class="object_genre">жанры</span>
+      </div>
+
+      <div class="prcard">
+          <img width="150" src="https://kartinkin.net/uploads/posts/2022-03/1647949796_1-kartinkin-net-p-kartinki-dlya-oblozhki-knigi-2.jpg">
+          <br>
+          <span class="object_name">Название</span>
+          <button>
+              <img width="15" src="https://cdn-icons-png.flaticon.com/512/20/20119.png">
+          </button>
+          <br>
+          <span class="object_author">Автор</span>
+          <br>
+          <span class="object_genre">жанры</span>
+      </div>
+
+    <div class="prcard">
+          <img width="150" src="https://kartinkin.net/uploads/posts/2022-03/1647949796_1-kartinkin-net-p-kartinki-dlya-oblozhki-knigi-2.jpg">
+          <br>
+          <span class="object_name">Название</span>
+          <button>
+              <img width="15" src="https://cdn-icons-png.flaticon.com/512/20/20119.png">
+          </button>
+          <br>
+          <span class="object_author">Автор</span>
+          <br>
+          <span class="object_genre">жанры</span>
+      </div>
+
+    <div class="prcard">
+          <img width="150" src="https://kartinkin.net/uploads/posts/2022-03/1647949796_1-kartinkin-net-p-kartinki-dlya-oblozhki-knigi-2.jpg">
+          <br>
+          <span class="object_name">Название</span>
+          <button>
+              <img width="15" src="https://cdn-icons-png.flaticon.com/512/20/20119.png">
+          </button>
+          <br>
+          <span class="object_author">Автор</span>
+          <br>
+          <span class="object_genre">жанры</span>
+      </div>
+
+    <div class="prcard">
+          <img width="150" src="https://kartinkin.net/uploads/posts/2022-03/1647949796_1-kartinkin-net-p-kartinki-dlya-oblozhki-knigi-2.jpg">
+          <br>
+          <span class="object_name">Название</span>
+          <button>
+              <img width="15" src="https://cdn-icons-png.flaticon.com/512/20/20119.png">
+          </button>
+          <br>
+          <span class="object_author">Автор</span>
+          <br>
+          <span class="object_genre">жанры</span>
+      </div>
+
+    <div class="prcard">
+          <img width="150" src="https://kartinkin.net/uploads/posts/2022-03/1647949796_1-kartinkin-net-p-kartinki-dlya-oblozhki-knigi-2.jpg">
+          <br>
+          <span class="object_name">Название</span>
+          <button>
+              <img width="15" src="https://cdn-icons-png.flaticon.com/512/20/20119.png">
+          </button>
+          <br>
+          <span class="object_author">Автор</span>
+          <br>
+          <span class="object_genre">жанры</span>
+      </div>
+
+    <div class="prcard">
+          <img width="150" src="https://kartinkin.net/uploads/posts/2022-03/1647949796_1-kartinkin-net-p-kartinki-dlya-oblozhki-knigi-2.jpg">
+          <br>
+          <span class="object_name">Название</span>
+          <button>
+              <img width="15" src="https://cdn-icons-png.flaticon.com/512/20/20119.png">
+          </button>
+          <br>
+          <span class="object_author">Автор</span>
+          <br>
+          <span class="object_genre">жанры</span>
+      </div>
+
+    <div class="prcard">
+          <img width="150" src="https://kartinkin.net/uploads/posts/2022-03/1647949796_1-kartinkin-net-p-kartinki-dlya-oblozhki-knigi-2.jpg">
+          <br>
+          <span class="object_name">Название</span>
+          <button>
+              <img width="15" src="https://cdn-icons-png.flaticon.com/512/20/20119.png">
+          </button>
+          <br>
+          <span class="object_author">Автор</span>
+          <br>
+          <span class="object_genre">жанры</span>
+      </div>
+
+    <div class="prcard">
+          <img width="150" src="https://kartinkin.net/uploads/posts/2022-03/1647949796_1-kartinkin-net-p-kartinki-dlya-oblozhki-knigi-2.jpg">
+          <br>
+          <span class="object_name">Название</span>
+          <button>
+              <img width="15" src="https://cdn-icons-png.flaticon.com/512/20/20119.png">
+          </button>
+          <br>
+          <span class="object_author">Автор</span>
+          <br>
+          <span class="object_genre">жанры</span>
+      </div>
+
+    <div class="prcard">
+          <img width="150" src="https://kartinkin.net/uploads/posts/2022-03/1647949796_1-kartinkin-net-p-kartinki-dlya-oblozhki-knigi-2.jpg">
+          <br>
+          <span class="object_name">Название</span>
+          <button>
+              <img width="15" src="https://cdn-icons-png.flaticon.com/512/20/20119.png">
+          </button>
+          <br>
+          <span class="object_author">Автор</span>
+          <br>
+          <span class="object_genre">жанры</span>
+      </div>
+
+    <div class="prcard">
+          <img width="150" src="https://kartinkin.net/uploads/posts/2022-03/1647949796_1-kartinkin-net-p-kartinki-dlya-oblozhki-knigi-2.jpg">
+          <br>
+          <span class="object_name">Название</span>
+          <button>
+              <img width="15" src="https://cdn-icons-png.flaticon.com/512/20/20119.png">
+          </button>
+          <br>
+          <span class="object_author">Автор</span>
+          <br>
+          <span class="object_genre">жанры</span>
+      </div>
+</div>
+
+</body>
+</html>
